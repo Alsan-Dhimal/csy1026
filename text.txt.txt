@@ -1,0 +1,23 @@
+/*ALishan Dhimal 21422039, 2021,CSY1026;*/
+ 
+ 
+ CREATE TABLE site(
+ site_id int(5),site_name VARCHAR(20)),location VARCHAR(30));
+                 
+
+CREATE TABLE SUBJECT_AREA(
+subject_id int(5),subject_name VARCHAR(20));
+
+
+
+CREATE TABLE TRAINERS(
+trainer_id int(6),
+t_firstname VARCHAR(20),
+t_surname VARCHAR(30),
+mentor_id int(10),
+contact_no int(10),
+rate int(10));
+ 
+ 
+ DROP TABLE SUBJECT_AREA,TRAINERS;
+*/
